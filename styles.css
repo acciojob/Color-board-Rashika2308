@@ -1,17 +1,19 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+    grid-template-columns: repeat(40, 20px);
+    grid-template-rows: repeat(20, 20px);
     gap: 1px;
-    max-width: 800px;
+    width: fit-content;
 }
 
 .square {
-    aspect-ratio: 1;
-    background-color: #f0f0f0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(29, 29, 29);
     transition: background-color 1s ease;
 }
 
 .square:hover {
-    background-color: var(--hover-color);
+    background-color: rgb(100, 100, 100); /* Lighter gray for hover */
     transition: background-color 0s;
 }
