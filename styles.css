@@ -14,6 +14,6 @@
 }
 
 .square:hover {
-    background-color: rgb(100, 100, 100); /* Lighter gray for hover */
+    /* Color will be set dynamically by JavaScript */
     transition: background-color 0s;
 }
